@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>	
+	<import>
+		<eventlistener>
+			<eventClassName>RegisterForm</eventClassName>
+			<eventName>saved</eventName>
+			<listenerClassFile>lib/system/event/listener/RecruitedByRegisterListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>RegisterForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/RecruitedByRegisterListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>RegisterPage</eventClassName>
+			<eventName>readParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/RecruitedByRegisterListener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

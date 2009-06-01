@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+	
+		<guthabenprices name="wcf.guthaben.prices.earnrecruit">
+			<description>wcf.guthaben.prices.earnrecruit.desc</description>
+			<price>GUTHABEN_EARN_PER_REGISTER</price>
+		</guthabenprices>
+
+	</import>
+</data>

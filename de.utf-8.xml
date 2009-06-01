@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+
+	<category name="wcf.guthaben.log">
+		<item name="wcf.guthaben.log.newrecruit"><![CDATA[Geworbener Benutzer:]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.guthaben_earn_per_register"><![CDATA[Guthaben pro geworbenen Benutzer]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_register.description"><![CDATA[Pro angeworbenen Benutzer wird dem Anwerber diese Summe gutgeschrieben.]]></item>
+	</category>
+
+	<category name="wcf.guthaben.prices">
+		<item name="wcf.guthaben.prices.earnrecruit"><![CDATA[Einkommen pro geworbenen Benutzer]]></item>
+		<item name="wcf.guthaben.prices.earnrecruit.desc"><![CDATA[Dieser Betrag wird Ihnen pro geworbenen Benutzer gutgeschrieben.]]></item>
+	</category>
+	
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.recruitedBy"><![CDATA[Angeworben durch]]></item>
+		<item name="wcf.user.option.recruitedBy.description"><![CDATA[Durch wen wurde dieser Benutzer geworben?]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.recruitedBy"><![CDATA[Angeworben durch]]></item>
+		<item name="wcf.user.recruitedBy.description"><![CDATA[Durch wen wurden Sie auf dieses Forum aufmerksam gemacht?]]></item>
+	</category>
+
+</language>
