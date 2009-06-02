@@ -45,9 +45,8 @@ class UserOptionOutputUser implements UserOptionOutput
 		
 		if (!$user->userID)
 			return '';
-		
-		$username = StringUtil::encodeAllChars($user->username);
-		return '<a href="index.php?page=User&userID='.$user->userID.'">'.$username.'</a>';
+			
+		return '<a href="index.php?page=User&userID='.$user->userID.'">'.$user->username.'</a>';
 	}
 }
 ?>
