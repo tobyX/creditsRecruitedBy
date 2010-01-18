@@ -29,7 +29,11 @@ class RecruitedByRegisterListener implements EventListener
 		{
 			case 'readParameters':
 				if ($className == 'RegisterPage' && isset($_GET['recruitedBy']))
-					WCF :: getSession()->register('recruitedBy', StringUtil::trim($_GET['recruitedBy']));
+				{
+					$user = new UserEditor(intval($_GET['recruitedBy']));
+					if ($user->userID)
+						WCF :: getSession()->register('recruitedBy', $user->username);
+				}
 			break;
 			
 			case 'assignVariables':

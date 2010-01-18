@@ -7,7 +7,7 @@
 		<isUnique>1</isUnique>
 		<packageDescription>Durch wen wurde dieser Benutzer geworben?</packageDescription>
 		<standalone>0</standalone>
-		<version>0.5.0</version>
+		<version>1.0.0</version>
 		<date>2009-06-01</date>
 		<plugin>com.woltlab.wcf</plugin>
 	</packageInformation>
@@ -31,6 +31,15 @@
 		<templates>templates.tar</templates>
 		<useroptions>useroptions.xml</useroptions>
 		<guthabenprices>prices.xml</guthabenprices>
+		<guthabenmainpage>mainpagemenu.xml</guthabenmainpage>
+	</instructions>
+	
+	<instructions type="update" fromversion="0.5.0">
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<guthabenmainpage>mainpagemenu.xml</guthabenmainpage>
 	</instructions>
 	
 </package>

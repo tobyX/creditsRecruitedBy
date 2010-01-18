@@ -16,9 +16,20 @@
 		<item name="wcf.guthaben.prices.earnrecruit.desc"><![CDATA[Dieser Betrag wird dir pro geworbenen Benutzer gutgeschrieben.]]></item>
 	</category>
 	
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.recruitedBy"><![CDATA[Angeworben durch]]></item>
+		<item name="wcf.user.option.recruitedBy.description"><![CDATA[Durch wen wurde dieser Benutzer geworben?]]></item>
+	</category>
+	
 	<category name="wcf.user">
 		<item name="wcf.user.recruitedBy"><![CDATA[Angeworben durch]]></item>
 		<item name="wcf.user.recruitedBy.description"><![CDATA[Durch wen wurdest du auf dieses Forum aufmerksam gemacht?]]></item>
+	</category>
+
+	<category name="wcf.guthaben.mainpage">
+		<item name="wcf.guthaben.mainpage.recruitedby"><![CDATA[Freunde einladen]]></item>
+		<item name="wcf.guthaben.mainpage.recruitedby.description"><![CDATA[Über einen bestimmten Link kann man Freunde ins Forum einladen und dafür Guthaben bekommen.]]></item>
+		<item name="wcf.guthaben.mainpage.recruitedby.link"><![CDATA[Gib deinen Freunden folgenden Link als Einladung ins Forum:<br / ><br / ><strong>{PAGE_URL}/index.php?page=Register&recruitedBy={$this->user->userID}</strong><br /><br / >Du wirst danach auch als Einlader im Profil Deines Freundes vermerkt.<br / >Bedenke aber, diese Art von Ref-Links sind nicht überall erlaubt!<br />Bevor Du den Link in anderen Foren verwenden lies dort bitte die entsprechenden Nutzungsbedingungen nach!]]></item>
 	</category>
 
 </language>

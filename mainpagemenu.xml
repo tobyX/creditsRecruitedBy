@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+
+		<userguthabenmainpage name="wcf.guthaben.mainpage.recruitedby">
+			<icon>guthabenRecruitedByL.png</icon>
+			<link>page=guthabenRecruitedBy</link>
+			<description>wcf.guthaben.mainpage.recruitedby.description</description>
+			<parent>gamePage</parent>
+		</userguthabenmainpage>
+
+	</import>
+</data>
